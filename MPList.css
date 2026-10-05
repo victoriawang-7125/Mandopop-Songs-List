@@ -89,6 +89,18 @@ h1 span {
     font-weight: 400;
 }
 
+.blurb-link {
+    color: #1a1a1a;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: color 0.2s ease;
+}
+
+.blurb-link:hover {
+    color: #555;
+}
+
 /* --- SCROLLING GALLERY --- */
 .gallery-wrapper {
     position: relative;
