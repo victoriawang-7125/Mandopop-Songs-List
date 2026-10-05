@@ -1,0 +1,302 @@
+[
+  {
+    "Song_Name_CN": "不如",
+    "Title_EN": "Why Not",
+    "Style_Category": "Pop Ballad (Inferred)",
+    "Artist": "秦海清",
+    "Mood": "Bittersweet",
+    "path": "assets/Why Not.jpg",
+    "alttext": "Cover art for Why Not",
+    "spotifyUrl": "https://open.spotify.com/track/6wtD1xgY7mLzLDfPx5kJas?si=15f5372ce33b45f6"
+  },
+  {
+    "Song_Name_CN": "不删",
+    "Title_EN": "Don't Delete",
+    "Style_Category": "Mandopop (Sourced)",
+    "Artist": "井胧",
+    "Mood": "Longing",
+    "path": "assets/Don't Delete.jpg",
+    "alttext": "Cover art for Don't Delete",
+    "spotifyUrl": "https://open.spotify.com/track/6V2ycd5EqUqAl9r6NHqjNN?si=f9524e8c91e64561"
+  },
+  {
+    "Song_Name_CN": "修炼爱情",
+    "Title_EN": "Practice Love",
+    "Style_Category": "Pop Ballad / R&B (Inferred)",
+    "Artist": "JJ Lin",
+    "Mood": "Heartbreak",
+    "path": "assets/Practice Love.jpg",
+    "alttext": "Cover art for Practice Love",
+    "spotifyUrl": "https://open.spotify.com/track/101iWa6yaODTI0RWewMK1B?si=a7f7892794fe4996"
+  },
+  {
+    "Song_Name_CN": "搁浅",
+    "Title_EN": "Step Aside",
+    "Style_Category": "Classic Ballad (Inferred)",
+    "Artist": "Jay Chou",
+    "Mood": "Regret",
+    "path": "assets/Step Aside.jpg",
+    "alttext": "Cover art for Step Aside",
+    "spotifyUrl": "https://open.spotify.com/track/0cOMncRq4cmDLO4tPQnkBF?si=abb0475668a84d01"
+  },
+  {
+    "Song_Name_CN": "小幸运",
+    "Title_EN": "Little Happiness",
+    "Style_Category": "Pop Ballad (Inferred)",
+    "Artist": "Hebe Tien",
+    "Mood": "Warm Nostalgia",
+    "path": "assets/Little Happiness.jpg",
+    "alttext": "Cover art for Little Happiness",
+    "spotifyUrl":"https://open.spotify.com/track/1ZeVIrCWzEmsJexkrgvjFv?si=f287008874a84462"
+  },
+  {
+    "Song_Name_CN": "可惜不是你",
+    "Title_EN": "Sadly, It's Not You",
+    "Style_Category": "Classic Ballad (Inferred)",
+    "Artist": "Fish Leong",
+    "Mood": "Regret",
+    "path": "assets/Sadly, It's Not You.jpg",
+    "alttext": "Cover art for Sadly, It's Not You",
+    "spotifyUrl":"https://open.spotify.com/track/4m4e3vIghV2QkHuOf83M7N?si=2a000940fb414318"
+  },
+  {
+    "Song_Name_CN": "突然好想你",
+    "Title_EN": "Suddenly Missing You",
+    "Style_Category": "Rock Ballad (Inferred)",
+    "Artist": "Mayday",
+    "Mood": "Longing",
+    "path": "assets/Suddenly Missing You.jpg",
+    "alttext": "Cover art for Suddenly Missing You",
+    "spotifyUrl":"https://open.spotify.com/track/0IAgufC1FlOg1nZMmRZxRr?si=c8db38e582dd44d1"
+  },
+  {
+    "Song_Name_CN": "离开你以后",
+    "Title_EN": "After Leaving You",
+    "Style_Category": "Emotional Ballad (Inferred)",
+    "Artist": "Eric Chou",
+    "Mood": "Heartbreak",
+    "path": "assets/After Leaving You.jpg",
+    "alttext": "Cover art for After Leaving You",
+    "spotifyUrl":"https://open.spotify.com/track/4cSCMlCcY65zlz1ZPhqsCe?si=cb904dd0e1db42de"
+  },
+  {
+    "Song_Name_CN": "嘉宾",
+    "Title_EN": "Guest",
+    "Style_Category": "Pop Ballad (Inferred)",
+    "Artist": "张远",
+    "Mood": "Bittersweet",
+    "path": "assets/Guest.jpg",
+    "alttext": "Cover art for Guest",
+    "spotifyUrl":"https://open.spotify.com/track/5jAmIkIpskwu2hRz2YaEHi?si=55e5188e82eb4e57"
+  },
+  {
+    "Song_Name_CN": "冬眠",
+    "Title_EN": "Hibernation",
+    "Style_Category": "Sad Ballad (Inferred)",
+    "Artist": "Wing (司南)",
+    "Mood": "Melancholic",
+    "path": "assets/Hibernation.jpg",
+    "alttext": "Cover art for Hibernation",
+    "spotifyUrl":"https://open.spotify.com/track/0ygttXRPvD5u9ikS8LwJvl?si=cfc38197ee78431f"
+  },
+  {
+    "Song_Name_CN": "来迟",
+    "Title_EN": "Too Late",
+    "Style_Category": "Pop Ballad (Inferred)",
+    "Artist": "Yutong Dai (戴羽彤)",
+    "Mood": "Regret",
+    "path": "assets/Too Late.jpg",
+    "alttext": "Cover art for Too Late",
+    "spotifyUrl":"https://open.spotify.com/track/5bhHRGoY7kCAztNSDx74cs?si=6ce52d9565824b31"
+  },
+  {
+    "Song_Name_CN": "童话",
+    "Title_EN": "Fairy Tale",
+    "Style_Category": "Pop Ballad (Sourced)",
+    "Artist": "Michael Wong (光良)",
+    "Mood": "Hopeful",
+    "path": "assets/Fairy Tale.jpg",
+    "alttext": "Cover art for Fairy Tale",
+    "spotifyUrl":"https://open.spotify.com/track/6NCylXeJcHOI908PjZDFcg?si=18befef899174f45"
+  },
+  {
+    "Song_Name_CN": "空空如也",
+    "Title_EN": "Utterly Empty",
+    "Style_Category": "Pop Ballad (Inferred)",
+    "Artist": "Ren Ran",
+    "Mood": "Emptiness",
+    "path": "assets/Utterly Empty.jpg",
+    "alttext": "Cover art for Utterly Empty",
+    "spotifyUrl":"https://open.spotify.com/track/2ivjgnwJxSoa19NobvNNuP?si=ccec4f629a9045f3"
+  },
+  {
+    "Song_Name_CN": "不分手的恋爱",
+    "Title_EN": "A Love Does Not Break Up",
+    "Style_Category": "Mandopop / R&B / Hip-Hop (Sourced)",
+    "Artist": "汪苏泷 (Silence Wang)",
+    "Mood": "Longing",
+    "path": "assets/A Love Does Not Break Up.jpg",
+    "alttext": "Cover art for A Love Does Not Break Up",
+    "spotifyUrl":"https://open.spotify.com/track/7Kucs67c0MWCBlA01uZqcL?si=84b6347c85d34bb0"
+  },
+  {
+    "Song_Name_CN": "我走后",
+    "Title_EN": "After I Leave",
+    "Style_Category": "Sad Ballad (Inferred)",
+    "Artist": "小咪",
+    "Mood": "Resigned",
+    "path": "assets/After I Leave.jpg",
+    "alttext": "Cover art for After I Leave",
+    "spotifyUrl":"https://open.spotify.com/track/32UZM0QSWwqzLbyr1YoS7x?si=51515038ae4d440f"
+  },
+  {
+    "Song_Name_CN": "把回忆拼好给你",
+    "Title_EN": "Piecing Memories Together for You",
+    "Style_Category": "Sad Ballad (Inferred)",
+    "Artist": "Wang Yilang (王贰浪)",
+    "Mood": "Longing",
+    "path": "assets/Piecing Memories Together for You.jpg",
+    "alttext": "Cover art for Piecing Memories Together for You",
+    "spotifyUrl":"https://open.spotify.com/track/6JdqrRn6XWk9e5ZcicCmtm?si=e22dd69e08364768"
+  },
+  {
+    "Song_Name_CN": "落日与晚风",
+    "Title_EN": "Sunset and Evening Breeze",
+    "Style_Category": "Pop Ballad (Inferred)",
+    "Artist": "In K; Billie Wang (王忻辰); 苏星婕",
+    "Mood": "Warm Nostalgia",
+    "path": "assets/Sunset and Evening Breeze.jpg",
+    "alttext": "Cover art for Sunset and Evening Breeze",
+    "spotifyUrl":"https://open.spotify.com/track/7LPh0Yy6J3qtawb9RqlLUK?si=75973fb985eb42f7"
+  },
+  {
+    "Song_Name_CN": "雨赶走云彩",
+    "Title_EN": "Rain Chases Away the Clouds",
+    "Style_Category": "Pop Ballad (Inferred)",
+    "Artist": "pro; Fu Mengtong (傅梦彤)",
+    "Mood": "Hopeful",
+    "path": "assets/Rain Chases Away the Clouds.jpg",
+    "alttext": "Cover art for Rain Chases Away the Clouds",
+    "spotifyUrl":"https://open.spotify.com/track/41s9RTP6WH0fzk4FKEKHds?si=1d0309c1e8204aa8"
+  },
+  {
+    "Song_Name_CN": "你如烟火散落",
+    "Title_EN": "You Scatter Like Fireworks",
+    "Style_Category": "Pop Ballad (Inferred)",
+    "Artist": "Zhang Yaqi (张雅淇); pro",
+    "Mood": "Melancholic",
+    "path": "assets/You Scatter Like Fireworks.jpg",
+    "alttext": "Cover art for You Scatter Like Fireworks",
+    "spotifyUrl":"https://open.spotify.com/track/2gzgrrJjVRXL66rZLnlt3n?si=c742aefba02545b9"
+  },
+  {
+    "Song_Name_CN": "后来我们的爱",
+    "Title_EN": "Later Our Love",
+    "Style_Category": "Pop Ballad (Inferred)",
+    "Artist": "pro",
+    "Mood": "Heartbreak",
+    "path": "assets/Later Our Love.jpg",
+    "alttext": "Cover art for Later Our Love",
+    "spotifyUrl":"https://open.spotify.com/track/3q0qLAZxe7YfYcu87sqon8?si=819ae2e3551f44e1"
+  },
+  {
+    "Song_Name_CN": "你走之后的雨季",
+    "Title_EN": "The Rainy Season After You Left",
+    "Style_Category": "Pop (Sourced)",
+    "Artist": "en (Wang Yien/王翊恩)",
+    "Mood": "Melancholic",
+    "path": "assets/The Rainy Season After You Left.jpg",
+    "alttext": "Cover art for The Rainy Season After You Left",
+    "spotifyUrl":"https://open.spotify.com/track/4J8vr8PSp5NcGjs1K8sTT1?si=8bd3ed8ab89f4d7e"
+  },
+  {
+    "Song_Name_CN": "舍不得又如何",
+    "Title_EN": "What Good Is Reluctance",
+    "Style_Category": "Pop/Rock (Sourced)",
+    "Artist": "Yu Dongran (于冬然)",
+    "Mood": "Resigned",
+    "path": "assets/What Good Is Reluctance.jpg",
+    "alttext": "Cover art for What Good Is Reluctance",
+    "spotifyUrl":"https://open.spotify.com/track/5cbbvZRaEqcuq3mLiIhp00?si=63dace83468d4209"
+  },
+  {
+    "Song_Name_CN": "骗子",
+    "Title_EN": "Deceiver",
+    "Style_Category": "Mandopop/Pop (Sourced)",
+    "Artist": "Yutong Dai (戴羽彤)",
+    "Mood": "Bittersweet",
+    "path": "assets/Deceiver.jpg",
+    "alttext": "Cover art for Deceiver",
+    "spotifyUrl":"https://open.spotify.com/track/7sxzIBxK4fB1urXb69aipQ?si=dc926bc2c5aa48e9"
+  },
+  {
+    "Song_Name_CN": "这是你期盼的长大吗",
+    "Title_EN": "Is This the Adulthood You Longed For",
+    "Style_Category": "Mandopop / Sad Ballad (Sourced)",
+    "Artist": "向思思",
+    "Mood": "Disillusioned",
+    "path": "assets/Is This the Adulthood You Longed For.jpg",
+    "alttext": "Cover art for Is This the Adulthood You Longed For",
+    "spotifyUrl":"https://open.spotify.com/track/105ViEA7DOVGg2IxSAd1Zy?si=fb153b1dfb6746f7"
+  },
+  {
+    "Song_Name_CN": "可望不可及",
+    "Title_EN": "Beyond Reach",
+    "Style_Category": "Pop Ballad (Inferred)",
+    "Artist": "黑崎子; Bunnyi_11",
+    "Mood": "Longing",
+    "path": "assets/Beyond Reach.jpg",
+    "alttext": "Cover art for Beyond Reach",
+    "spotifyUrl":"https://open.spotify.com/track/0JiSElqLyiFWLd6V7W7GY5?si=276e6b01ca354232"
+  },
+  {
+    "Song_Name_CN": "真的不快乐",
+    "Title_EN": "Truly Unhappy",
+    "Style_Category": "Sad Ballad (Inferred)",
+    "Artist": "羊羊",
+    "Mood": "Melancholic",
+    "path": "assets/Truly Unhappy.jpg",
+    "alttext": "Cover art for Truly Unhappy",
+    "spotifyUrl":"https://open.spotify.com/track/3UxlSjNrm2thLNBVT1zQzn?si=1854ef7f0c454359"
+  },
+  {
+    "Song_Name_CN": "野人",
+    "Title_EN": "The Savage",
+    "Style_Category": "Rock / Folk (Inferred)",
+    "Artist": "Meng Weilai (孟维来)",
+    "Mood": "Liberating",
+    "path": "assets/The Savage.jpg",
+    "alttext": "Cover art for The Savage",
+    "spotifyUrl":"https://open.spotify.com/track/2ttMSI70ZaI6WKZkwNGLmD?si=b5fa17b79eb14cd5"
+  },
+  {
+    "Song_Name_CN": "妥协",
+    "Title_EN": "Compromise",
+    "Style_Category": "Pop Ballad (Sourced)",
+    "Artist": "en (Wang Yien/王翊恩)",
+    "Mood": "Resigned",
+    "path": "assets/Compromise.jpg",
+    "alttext": "Cover art for Compromise",
+    "spotifyUrl":"https://open.spotify.com/track/0FduRtdtCZwAlQdmEjcEiU?si=98bebae4d04a469d"
+  },
+  {
+    "Song_Name_CN": "爛泥",
+    "Title_EN": "Mud",
+    "Style_Category": "Rock / Grunge (Sourced)",
+    "Artist": "草东没有派对 (No Party For Cao Dong)",
+    "Mood": "Resigned",
+    "path": "assets/Mud.jpg",
+    "alttext": "Cover art for Mud",
+    "spotifyUrl":"https://open.spotify.com/track/6igC1CmfqGm8Xr7XW3lTO3?si=ee81adcd2ea74271"
+  },
+  {
+    "Song_Name_CN": "追",
+    "Title_EN": "Chasing",
+    "Style_Category": "Pop Ballad (Inferred)",
+    "Artist": "陈壹千 (Amy Chanrich)",
+    "Mood": "Disillusioned",
+    "path": "assets/Chasing.jpg",
+    "alttext": "Cover art for Chasing",
+    "spotifyUrl": "https://open.spotify.com/track/6K9ynUKtpsp2DqcI8oinfA?si=2b5d96b241874bf0"
+  }
+]

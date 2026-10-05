@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Collection — My Mandopop Songs</title>
+    <link rel="stylesheet" href="collection.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="nav-left">
+            <a href="index.html" class="favicon-link">
+                <div class="favicon-placeholder">M</div>
+            </a>
+            <span>My Mandopop Songs</span>
+        </div>
+        <div class="nav-right">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="collection.html" class="nav-link active">Browse Collection</a>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <header class="page-header">
+        <h1>Browse <span>Collection</span></h1>
+        <p class="blurb">
+        My collection of <strong>29</strong> songs pulled from my main playlist of <strong>274</strong> songs. Click the buttons to filter by mood or style, sort by title or artist, and click any cover to view details. Use the search bar on the botton left to search songs by name or artist in English or Chinese.</p>
+    </header>
+
+    <!-- FILTER & SORT BAR -->
+    <section class="controls">
+        <div class="control-group">
+            <label for="searchInput">Search</label>
+            <input type="text" id="searchInput" placeholder="Song or artist...">
+        </div>
+
+        <div class="control-group">
+            <label for="sortSelect">Sort by</label>
+            <select id="sortSelect">
+                <option value="default">Default order</option>
+                <option value="title-asc">Title (A–Z)</option>
+                <option value="title-desc">Title (Z–A)</option>
+                <option value="artist-asc">Artist (A–Z)</option>
+                <option value="mood">Mood</option>
+            </select>
+        </div>
+
+        <div class="control-group">
+            <label for="styleSelect">Style</label>
+            <select id="styleSelect">
+                <option value="all">All styles</option>
+            </select>
+        </div>
+
+        <button id="clearFilters" class="clear-btn">Clear all</button>
+    </section>
+
+    <!-- MOOD CHIPS -->
+    <section class="mood-chips" id="moodChips">
+        <!-- Populated by JS -->
+    </section>
+
+    <!-- RESULTS COUNT -->
+    <p class="results-count" id="resultsCount"></p>
+
+    <!-- GRID -->
+    <main class="grid" id="grid">
+        <!-- Populated by JS -->
+    </main>
+
+    <!-- MODAL -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal" id="modal">
+            <button class="modal-close" id="modalClose">×</button>
+            <div class="modal-inner" id="modalInner">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="collection.js"></script>
+</body>
+</html>
