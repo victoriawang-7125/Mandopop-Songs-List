@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Browse Collection — My Mandopop Songs</title>
     <link rel="stylesheet" href="collection.css">
-    <link rel="icon" type="image/svg+xml" href="assets/project2favicon.svg">
+    <link rel="icon" type="image/png" href="assets/project2favicon.png">
 </head>
 <body>
 
@@ -13,7 +13,7 @@
     <nav>
         <div class="nav-left">
             <a href="index.html" class="favicon-link">
-                <div class="favicon-placeholder">M</div>
+            <img src="assets/project2favicon.png" alt="Logo" class="favicon-placeholder">
             </a>
             <span>My Mandopop Songs</span>
         </div>
@@ -28,6 +28,8 @@
         <h1>Browse <span>Collection</span></h1>
         <p class="blurb">
         My collection of <strong>29</strong> songs pulled from my main playlist of <strong>274</strong> songs. Click the buttons to filter by mood or style, sort by title or artist, and click any cover to view details. Use the search bar on the botton left to search songs by name or artist in English or Chinese.</p>
+        <p class="blurb">
+        <strong>All 29 songs here are Mandopop, or Mandarin-language pop. The style filter below narrows by sound within that category, from ballads to rock to R&B.</strong></p>
     </header>
 
     <!-- FILTER & SORT BAR -->
@@ -81,6 +83,15 @@
         </div>
     </div>
 
-    <script src="collection.js"></script>
+   <div class="cursor-dot"></div>
+   <script>
+        const dot = document.querySelector('.cursor-dot');
+        document.addEventListener('mousemove', (e) => {
+            dot.style.left = e.clientX + 'px';
+            dot.style.top = e.clientY + 'px';
+        });
+   </script>
+
+   <script src="collection.js"></script>
 </body>
 </html>

@@ -12,12 +12,36 @@ body {
     min-height: 100vh;
 }
 
+/* --- Custom Cursor Body, Not Paragraphs --- */
+body {
+    cursor: none;
+}
+
+.cursor-dot {
+    position: fixed;
+    width: 18px;
+    height: 18px;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    background-image: url('assets/project2favicon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (hover: none) {
+    .cursor-dot { display: none; }
+    body { cursor: auto; }
+}
+
 /* --- NAVBAR --- */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 40px;
+    width: 100%;
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -26,14 +50,10 @@ nav {
     display: flex;
     align-items: center;
     gap: 15px;
-    font-size: 0.85rem;
+    font-size: 1rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #555;
-}
-
-.favicon-link {
-    text-decoration: none;
 }
 
 .favicon-placeholder {
@@ -53,11 +73,14 @@ nav {
     display: flex;
     gap: 25px;
     font-size: 0.75rem;
+    color: #777;
+    letter-spacing: 0.05em;
 }
 
 .nav-link {
     color: #555;
     text-decoration: none;
+    font-size: 0.9rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     border-bottom: 1px solid transparent;
@@ -69,10 +92,6 @@ nav {
     border-bottom-color: #1a1a1a;
 }
 
-.nav-link.active {
-    color: #1a1a1a;
-    border-bottom-color: #1a1a1a;
-}
 
 /* --- PAGE HEADER --- */
 .page-header {
@@ -98,10 +117,11 @@ nav {
 
 .blurb {
     font-size: 1.1rem;
-    line-height: 1.6;
+    line-height: 1.3;
     color: #4a4a4a;
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 720px;
+    margin: 0 auto 15px auto;
+    font-weight: 400;
 }
 
 /* --- CONTROLS BAR --- */
@@ -111,7 +131,7 @@ nav {
     gap: 20px;
     align-items: flex-end;
     max-width: 1400px;
-    margin: 40px auto 20px;
+    margin: 10px auto 20px;
     padding: 0 40px;
 }
 
@@ -399,20 +419,28 @@ nav {
     margin-bottom: 20px;
 }
 
+/* Generic tag, no shape*/
 .tag {
     font-size: 0.75rem;
-    padding: 6px 12px;
-    border-radius: 100px;
-    background-color: #ffffff;
-    color: #333;
-    letter-spacing: 0.03em;
-    border: 1px solid #d5d5dc;
+    color: #777;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: none;
+    padding: 0;
+    border: none;
+    border-radius: 0;
 }
 
 .tag.mood {
+    font-size: 0.75rem;
+    padding: 6px 14px;
+    border-radius: 100px;
     background-color: #1a1a1a;
     color: #ffffff;
-    border-color: #1a1a1a;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 .modal-artist {
@@ -429,6 +457,14 @@ nav {
     display: block;
     margin-bottom: 4px;
     color: #777;
+}
+
+.modal-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
 }
 
 /* --- RESPONSIVE --- */

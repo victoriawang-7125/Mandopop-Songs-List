@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Mandopop Songs List</title>
     <link rel="stylesheet" href="MPList.css">
-    <link rel="icon" type="image/svg+xml" href="assets/project2favicon.svg">
+    <link rel="icon" type="image/png" href="assets/project2favicon.png">
 </head>
 <body>
 
        <!-- NAVBAR -->
     <nav>
         <div class="nav-left">
-            <div class="favicon-placeholder">M</div>
+            <img src="assets/project2favicon.png" alt="Logo" class="favicon-placeholder">
             <span>My Mandopop Songs</span>
         </div>
         <div class="nav-right">
@@ -284,6 +284,16 @@
             
         </div>
     </div>
+
+<div class="cursor-dot"></div>
+
+<script>
+        const dot = document.querySelector('.cursor-dot');
+        document.addEventListener('mousemove', (e) => {
+            dot.style.left = e.clientX + 'px';
+            dot.style.top = e.clientY + 'px';
+        });
+    </script>
 
 </body>
 </html>

@@ -15,6 +15,29 @@ body {
     flex-direction: column;
 }
 
+/* --- Custom Cursor Body, Not Paragraphs --- */
+body {
+    cursor: none;
+}
+
+.cursor-dot {
+    position: fixed;
+    width: 18px;
+    height: 18px;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    background-image: url('assets/project2favicon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (hover: none) {
+    .cursor-dot { display: none; }
+    body { cursor: auto; }
+}
+
 /* --- NAVBAR --- */
 nav {
     display: flex;
@@ -30,7 +53,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 15px;
-    font-size: 0.85rem;
+    font-size: 1rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #555;
@@ -55,6 +78,21 @@ nav {
     font-size: 0.75rem;
     color: #777;
     letter-spacing: 0.05em;
+}
+
+.nav-link {
+    color: #555;
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #1a1a1a;
+    border-bottom-color: #1a1a1a;
 }
 
 /* --- MAIN HERO SECTION --- */
@@ -115,8 +153,9 @@ h1 span {
     display: flex;
     gap: 25px;
     width: max-content;
-    animation: scrollGallery 40s linear infinite;
+    animation: scrollGallery 60s linear infinite;
 }
+
 
 .gallery-track:hover {
     animation-play-state: paused;
@@ -234,19 +273,4 @@ h1 span {
     .en-name {
         font-size: 0.65rem;
     }
-}
-
-.nav-link {
-    color: #555;
-    text-decoration: none;
-    font-size: 0.75rem;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    border-bottom: 1px solid transparent;
-    transition: border-color 0.2s ease, color 0.2s ease;
-}
-
-.nav-link:hover {
-    color: #1a1a1a;
-    border-bottom-color: #1a1a1a;
 }
