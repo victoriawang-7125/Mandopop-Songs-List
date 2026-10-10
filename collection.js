@@ -1,6 +1,5 @@
-// ============================================================
-// COLLECTION.JS — Grid view with filters, sorting, and modal
-// ============================================================
+
+// Grid view with filters, sorting, and modals
 
 // --- STATE ---
 let allSongs = [];
@@ -9,7 +8,7 @@ let activeStyle = 'all';
 let activeSearch = '';
 let activeSort = 'default';
 
-// --- DOM REFERENCES ---
+// --- Page Elements ---
 const grid = document.getElementById('grid');
 const moodChips = document.getElementById('moodChips');
 const styleSelect = document.getElementById('styleSelect');
@@ -38,7 +37,7 @@ async function init() {
     }
 }
 
-// --- BUILD MOOD CHIPS (with counts) ---
+// --- BUILD MOOD CHIPS OR BUCKETS---
 function buildMoodChips() {
     const counts = {};
     allSongs.forEach(song => {
