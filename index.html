@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Mandopop Songs List</title>
     <link rel="stylesheet" href="MPList.css">
+    <link rel="stylesheet" href="MPList.js">
     <link rel="icon" type="image/png" href="assets/project2favicon.png">
 </head>
 <body>
@@ -23,7 +24,7 @@
 
     <!-- HERO SECTION -->
     <header>
-        <h1>My Mandopop <span>Songs List</span></h1>
+        <h1 class="split">My Mandopop <span>Songs List</span></h1>
         
        <p class="blurb">
     What is Mandopop? <strong>Mandopop is Mandarin-language pop, a major branch of Chinese popular music (C-pop).</strong> 
@@ -294,6 +295,25 @@
             dot.style.top = e.clientY + 'px';
         });
     </script>
+
+<!-- GSAP Core -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+
+<!-- SplitText Plugin -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/SplitText.min.js"></script>
+
+<!-- Hero title animation -->
+<script>
+    let split = SplitText.create(".split", { type: "words, chars" });
+
+    gsap.from(split.chars, {
+        duration: 0.8,
+        y: 60,
+        autoAlpha: 0,
+        stagger: 0.03,
+        ease: "power2.out"
+    });
+</script>
 
 </body>
 </html>
